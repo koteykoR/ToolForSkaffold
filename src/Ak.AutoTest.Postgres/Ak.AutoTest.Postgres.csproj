@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.79" />
+    <PackageReference Include="Npgsql" Version="10.0.3" />
+    <ProjectReference Include="../Ak.AutoTest/Ak.AutoTest.csproj" />
+  </ItemGroup>
+</Project>

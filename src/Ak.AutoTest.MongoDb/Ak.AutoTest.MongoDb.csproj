@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="3.12.0" />
+    <ProjectReference Include="../Ak.AutoTest/Ak.AutoTest.csproj" />
+  </ItemGroup>
+</Project>

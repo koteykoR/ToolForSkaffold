@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.12.0" />
+    <ProjectReference Include="../Ak.AutoTest/Ak.AutoTest.csproj" />
+  </ItemGroup>
+</Project>

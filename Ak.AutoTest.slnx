@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/Ak.AutoTest/Ak.AutoTest.csproj" />
+  <Project Path="src/Ak.AutoTest.WireMock/Ak.AutoTest.WireMock.csproj" />
+  <Project Path="src/Ak.AutoTest.Kafka/Ak.AutoTest.Kafka.csproj" />
+  <Project Path="src/Ak.AutoTest.Postgres/Ak.AutoTest.Postgres.csproj" />
+  <Project Path="src/Ak.AutoTest.MongoDb/Ak.AutoTest.MongoDb.csproj" />
+</Solution>

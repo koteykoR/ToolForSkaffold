@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Version>0.1.0-preview.10</Version>
+    <Authors>AK</Authors>
+    <Description>Reusable integration testing utilities for NUnit and Allure.</Description>
+    <DebugType>portable</DebugType>
+
+    <EmbedAllSources>true</EmbedAllSources>
+    <Deterministic>true</Deterministic>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildProjectDirectory)/bin/$(Configuration)/$(TargetFramework)/$(MSBuildProjectName).pdb" Pack="true" PackagePath="lib/$(TargetFramework)/" />
+    <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
